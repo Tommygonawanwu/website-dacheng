@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="id" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT Dacheng Engineering Indonesia</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@latest"></script>
+
+  <style>
+    body { background:#0F172A; color:#E2E8F0; font-family:sans-serif; }
+    .hero-pattern {
+      background: linear-gradient(135deg,#0F172A,#1E3A5F);
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="fixed top-0 w-full bg-[#0F172A]/80 backdrop-blur border-b border-white/10 z-50">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+
+    <!-- LOGO -->
+    <div class="flex items-center gap-3">
+      <img src="logo-dacheng.png" class="w-12 h-12 object-contain">
+
+      <div>
+        <div class="text-orange-400 font-semibold">Dacheng Engineering</div>
+        <div class="text-xs opacity-50">Indonesia</div>
+      </div>
+    </div>
+
+    <div class="hidden md:flex gap-6 text-sm">
+      <a href="#about">Tentang</a>
+      <a href="#services">Layanan</a>
+      <a href="#projects">Proyek</a>
+    </div>
+
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero-pattern h-screen flex items-center px-6">
+  <div class="max-w-6xl mx-auto">
+    <h1 class="text-5xl font-bold mb-6">
+      PT Dacheng Engineering Indonesia
+    </h1>
+    <p class="opacity-70 max-w-xl">
+      Konstruksi Sipil, Mekanikal & Elektrikal, Struktur Baja, dan Instalasi Industri.
+    </p>
+  </div>
+</header>
+
+<!-- PROJECT -->
+<section id="projects" class="py-20 px-6">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl mb-10">Portofolio Proyek</h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+
+      <!-- SEMEN -->
+      <div class="bg-white/5 rounded-xl overflow-hidden">
+        <div class="h-40 relative overflow-hidden group">
+          <img src="semen.jpg" class="w-full h-full object-cover group-hover:scale-110 transition">
+          <div class="absolute inset-0 bg-black/30"></div>
+        </div>
+        <div class="p-4">
+          <div class="text-orange-400 text-xs">Semen</div>
+          <div class="text-sm">Lini Produksi Semen</div>
+        </div>
+      </div>
+
+      <!-- NIKEL -->
+      <div class="bg-white/5 rounded-xl overflow-hidden">
+        <div class="h-40 relative overflow-hidden group">
+          <img src="nikel.jpg" class="w-full h-full object-cover group-hover:scale-110 transition">
+          <div class="absolute inset-0 bg-black/30"></div>
+        </div>
+        <div class="p-4">
+          <div class="text-orange-400 text-xs">Nikel-Besi</div>
+          <div class="text-sm">Lini Produksi & Pembangkit</div>
+        </div>
+      </div>
+
+      <!-- NURSERY -->
+      <div class="bg-white/5 rounded-xl overflow-hidden">
+        <div class="h-40 relative overflow-hidden group">
+          <img src="nursery.jpg" class="w-full h-full object-cover group-hover:scale-110 transition">
+          <div class="absolute inset-0 bg-black/30"></div>
+        </div>
+        <div class="p-4">
+          <div class="text-orange-400 text-xs">Kertas & Alumina</div>
+          <div class="text-sm">Pembibitan & Industri</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  lucide.createIcons();
+</script>
+
+</body>
+</html>
